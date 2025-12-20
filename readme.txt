@@ -5,8 +5,8 @@
 #------------------------------------------------
 git --version
 #------------------------------------------------
-# ouvrir le fichier de configuration
 # configurer git
+# ouvrir le fichier de configuration
 # definir le nom de l'utilisateur <name>
 # definir l'adresse email de l'utilisateur <email>
 # definir l'editeur de commit <editor>
@@ -28,10 +28,10 @@ git config --global --edit
 [init]
 	defaultbranch = master
 #------------------------------------------------
+# cloner un depot
 # creer un compte sur github
 # creer un depot sur github
 # recuperer l'url https d'un depot sur github
-# cloner un depot
 #------------------------------------------------
 git clone <url depot>
 #------------------------------------------------
@@ -43,6 +43,10 @@ git status
 #------------------------------------------------
 git add <nom dossier>/
 #------------------------------------------------
+# indexer un fichier
+#------------------------------------------------
+git add <nom fichier>
+#------------------------------------------------
 # valider les modifications avec un message de commit
 #------------------------------------------------
 git commit -m "<message commit>"
@@ -50,4 +54,8 @@ git commit -m "<message commit>"
 # pousser les modifications
 #------------------------------------------------
 git push
+#------------------------------------------------
+# recuperer les modifications
+#------------------------------------------------
+git pull
 #------------------------------------------------
