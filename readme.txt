@@ -28,10 +28,10 @@ git config --global --edit
 [init]
 	defaultbranch = master
 #------------------------------------------------
-# cloner un depot
 # creer un compte sur github
 # creer un depot sur github
 # recuperer l'url https d'un depot sur github
+# cloner un depot
 #------------------------------------------------
 git clone <url depot>
 #------------------------------------------------
@@ -50,6 +50,11 @@ git add <nom fichier>
 # valider les modifications avec un message de commit
 #------------------------------------------------
 git commit -m "<message commit>"
+#------------------------------------------------
+# indexer tous les fichiers deja suivis
+# valider les modifications avec un message de commit
+#------------------------------------------------
+git commit -am "<message commit>"
 #------------------------------------------------
 # pousser les modifications
 #------------------------------------------------
