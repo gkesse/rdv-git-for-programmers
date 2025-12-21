@@ -5,8 +5,8 @@
 #------------------------------------------------
 git --version
 #------------------------------------------------
-# configurer git
 # ouvrir le fichier de configuration
+# configurer git
 # definir le nom de l'utilisateur <name>
 # definir l'adresse email de l'utilisateur <email>
 # definir l'editeur de commit <editor>
@@ -27,6 +27,10 @@ git config --global --edit
 	branch = auto
 [init]
 	defaultbranch = master
+#------------------------------------------------
+# configurer l'editeur de commit
+#------------------------------------------------
+git config ––global core.editor "<nom editeur>"
 #------------------------------------------------
 # creer un compte sur github
 # creer un depot sur github
@@ -56,6 +60,11 @@ git commit -m "<message commit>"
 #------------------------------------------------
 git commit -am "<message commit>"
 #------------------------------------------------
+# valider les modifications sans un message de commit
+# rediger le message de commit dans l'editeur de commit
+#------------------------------------------------
+git commit
+#------------------------------------------------
 # pousser les modifications
 #------------------------------------------------
 git push
@@ -63,4 +72,26 @@ git push
 # recuperer les modifications
 #------------------------------------------------
 git pull
+#------------------------------------------------
+# afficher l'historique des commits 
+#------------------------------------------------
+git log
+#------------------------------------------------
+# afficher l'historique des commits sur une ligne
+#------------------------------------------------
+git log --oneline
+#------------------------------------------------
+# basculer sur une branche
+#------------------------------------------------
+git checkout <nom branche>
+git switch <nom branche>
+#------------------------------------------------
+# creer une branche
+#------------------------------------------------
+git branch <nom branche>
+#------------------------------------------------
+# creer une branche
+# basculer sur la branche
+#------------------------------------------------
+git checkout -b <nom branche>
 #------------------------------------------------
