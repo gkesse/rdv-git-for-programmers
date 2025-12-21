@@ -51,6 +51,10 @@ git add <nom dossier>/
 #------------------------------------------------
 git add <nom fichier>
 #------------------------------------------------
+# indexer tous les fichiers suivis et non suivis
+#------------------------------------------------
+git add .
+#------------------------------------------------
 # valider les modifications avec un message de commit
 #------------------------------------------------
 git commit -m "<message commit>"
@@ -69,6 +73,10 @@ git commit
 #------------------------------------------------
 git push
 #------------------------------------------------
+# pousser les modifications sur nouvelle branche
+#------------------------------------------------
+git push --set-upstream origin <nom branche>
+#------------------------------------------------
 # recuperer les modifications
 #------------------------------------------------
 git pull
@@ -77,7 +85,7 @@ git pull
 #------------------------------------------------
 git log
 #------------------------------------------------
-# afficher l'historique des commits sur une ligne
+# afficher l'historique des commits sur une ligne par commit
 #------------------------------------------------
 git log --oneline
 #------------------------------------------------
