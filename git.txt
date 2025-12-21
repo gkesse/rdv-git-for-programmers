@@ -115,3 +115,21 @@ git checkout -b <nom branche>
 #------------------------------------------------
 git mv <ancien nom fichier> <nouveau nom fichier>
 #------------------------------------------------
+# installer l'outil de fusion kdiff3
+# configurer l'outil de fusion kdiff3
+#------------------------------------------------
+git config --global --edit
+...
+[merge]
+	tool = kdiff3
+[mergetool]
+	prompt = false
+	keepBackup = false
+	keepTemporaries = false
+[mergetool "kdiff3"]
+	path = "C:\\Program Files\\KDiff3"
+#------------------------------------------------
+# ouvrir l'outil de fusion en cas de conflits
+#------------------------------------------------
+git mergetool
+#------------------------------------------------
