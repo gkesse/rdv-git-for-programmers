@@ -133,3 +133,7 @@ git config --global --edit
 #------------------------------------------------
 git mergetool
 #------------------------------------------------
+# modifier le fichier dans le repertoire principal
+# recuperer les modifications du repertoire temporaire
+# un conflit est genere
+#------------------------------------------------
