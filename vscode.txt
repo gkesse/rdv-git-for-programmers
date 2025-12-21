@@ -1,0 +1,6 @@
+#------------------------------------------------
+# modifier le langage d'un fichier
+#------------------------------------------------
+vscode -> aller dans la zone en <bas> à <doite>
+<ancien langage> -> filtrer -> <nouveau langage>
+#------------------------------------------------

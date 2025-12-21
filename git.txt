@@ -69,6 +69,14 @@ git commit -am "<message commit>"
 #------------------------------------------------
 git commit
 #------------------------------------------------
+# afficher les modifications sur le dernier commit
+# (a) indique le fichier avant le commit
+# (b) indique le fichier apres le commit
+# (-) indique une suppression
+# (+) indique un ajout
+#------------------------------------------------
+git show
+#------------------------------------------------
 # pousser les modifications
 #------------------------------------------------
 git push
@@ -81,7 +89,7 @@ git push --set-upstream origin <nom branche>
 #------------------------------------------------
 git pull
 #------------------------------------------------
-# afficher l'historique des commits 
+# afficher l'historique des commits
 #------------------------------------------------
 git log
 #------------------------------------------------
@@ -102,4 +110,8 @@ git branch <nom branche>
 # basculer sur la branche
 #------------------------------------------------
 git checkout -b <nom branche>
+#------------------------------------------------
+# renommer un fichier deja suivi
+#------------------------------------------------
+git mv <ancien nom fichier> <nouveau nom fichier>
 #------------------------------------------------
