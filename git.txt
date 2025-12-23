@@ -136,6 +136,9 @@ git mergetool
 # cloner un depot dans un repertoire temporaire
 # modifier un fichier dans le depot du repertoire temporaire
 # pousser les modifications dans le depot du repertoire temporaire
+# modifier le fichier dans le repertoire principal
+# recuperer les modifications du repertoire temporaire
+# un conflit est genere
 #------------------------------------------------
 git mergetool
 #------------------------------------------------
